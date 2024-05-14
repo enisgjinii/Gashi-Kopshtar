@@ -1,0 +1,327 @@
+# Folder Structure Analysis
+
+### Root Directory
+- **.sass-cache/**: Contains cached compiled CSS files from the SCSS files for faster compilation.
+- **about.php, blog.php, cart.php, checkout.php, email_form.php, footer.php, header.php, index.php, portfolio.php, shop-details.php, shop.php, single-portfolio.php, single-post.php**: PHP files for different pages of the application.
+- **composer.json, composer.lock**: Composer files for managing PHP dependencies.
+- **contact.html**: HTML file for the contact page.
+- **style.css, style.css.map**: Compiled CSS files from SCSS.
+- **css/**: Directory containing CSS files for styling the application.
+- **fonts/**: Directory containing font files used in the application.
+- **img/**: Directory containing images used in the application.
+- **js/**: Directory containing JavaScript files for functionality.
+- **scss/**: Directory containing SCSS files for styling the application.
+
+### .sass-cache/
+- Contains cached compiled CSS files from SCSS files for faster compilation.
+- Each subdirectory represents a unique cache for the corresponding SCSS files.
+
+### css/
+- Contains CSS files for styling the application.
+- Includes files like bootstrap.min.css, font-awesome.min.css, etc.
+
+### fonts/
+- Contains font files used in the application.
+- Includes files like classy.eot, fontawesome-webfont.woff, etc.
+
+### img/
+- Contains images used in the application.
+- Includes subdirectories for background images and core images.
+
+### js/
+- Contains JavaScript files for functionality.
+- Includes subdirectories for different JavaScript plugins like Bootstrap and jQuery.
+
+### scss/
+- Contains SCSS files for styling the application.
+- Includes files like style.scss, _fonts.scss, _mixin.scss, etc.
+
+### Suggestions
+- Consider organizing the images into subdirectories based on their usage to improve readability.
+- Ensure consistent naming conventions for files and folders to maintain a clean structure.
+- Document the purpose of each file and folder for better understanding and maintenance.- .sass-cache/
+  - 03465f23f19c9b31771cc8acec61089cccc1845c/
+    - style.scssc
+    - _fonts.scssc
+    - _mixin.scssc
+    - _responsive.scssc
+    - _theme_color.scssc
+  - 475e2dc6ecb7bd594adf3c7ef23377f13ce5685a/
+    - style.scssc
+    - _fonts.scssc
+    - _mixin.scssc
+    - _responsive.scssc
+    - _theme_color.scssc
+  - 92c2ff24315db15914b9d82f622cf290dd0a1856/
+    - style.scssc
+    - _fonts.scssc
+    - _mixin.scssc
+    - _responsive.scssc
+    - _theme_color.scssc
+  - 9568d30ed5d2cebc2ad5df4154c8df8099b75c0b/
+    - style.scssc
+    - _mixin.scssc
+    - _responsive.scssc
+    - _theme_color.scssc
+    - _variables.scssc
+  - b687762b7660b1f71ae40e600add14c590cfdbc7/
+    - style.scssc
+    - _mixin.scssc
+    - _responsive.scssc
+    - _theme_color.scssc
+    - _variables.scssc
+- about.php
+- blog.php
+- cart.php
+- checkout.php
+- composer.json
+- composer.lock
+- contact.html
+- css/
+  - animate.css
+  - bootstrap.min.css
+  - classy-nav.css
+  - elegant-icon.css
+  - font-awesome.min.css
+  - magnific-popup.css
+  - owl.carousel.min.css
+- email_form.php
+- fonts/
+  - classy.eot
+  - classy.svg
+  - classy.ttf
+  - classy.woff
+  - ElegantIcons.eot
+  - ElegantIcons.svg
+  - ElegantIcons.ttf
+  - ElegantIcons.woff
+  - fontawesome-webfont.eot
+  - fontawesome-webfont.svg
+  - fontawesome-webfont.ttf
+  - fontawesome-webfont.woff
+  - fontawesome-webfont.woff2
+  - FontAwesome.otf
+- footer.php
+- header.php
+- img/
+  - 1.jpg
+  - 10.jpg
+  - 100.jpg
+  - 101.jpg
+  - 102.jpg
+  - 103.jpg
+  - 104.jpg
+  - 105.jpg
+  - 106.jpg
+  - 107.jpg
+  - 108.jpg
+  - 109.jpg
+  - 11.jpg
+  - 110.jpg
+  - 111.jpg
+  - 112.png
+  - 113.jpg
+  - 114.jpg
+  - 115.jpg
+  - 116.jpg
+  - 117.jpg
+  - 12.jpg
+  - 13.jpg
+  - 14.jpg
+  - 15.jpg
+  - 16.jpg
+  - 17.jpg
+  - 18.jpg
+  - 19.jpg
+  - 2.jpg
+  - 20.jpg
+  - 21.jpg
+  - 22.jpg
+  - 23.jpg
+  - 24.jpg
+  - 25.jpg
+  - 26.png
+  - 27.png
+  - 28.jpg
+  - 29.jpg
+  - 3.jpg
+  - 30.jpg
+  - 31.jpg
+  - 32.jpg
+  - 33.jpg
+  - 34.jpg
+  - 35.jpg
+  - 36.jpg
+  - 37.jpg
+  - 38.jpg
+  - 39.jpg
+  - 4.jpg
+  - 40.jpg
+  - 41.jpg
+  - 42.jpg
+  - 43.jpg
+  - 44.jpg
+  - 45.jpg
+  - 46.jpg
+  - 47.jpg
+  - 48.jpg
+  - 49.jpg
+  - 5.jpg
+  - 50.jpg
+  - 51.jpg
+  - 52.jpg
+  - 53.jpg
+  - 54.jpg
+  - 55.jpg
+  - 56.jpg
+  - 57.jpg
+  - 58.jpg
+  - 59.jpg
+  - 6.jpg
+  - 60.jpg
+  - 61.jpg
+  - 62.jpg
+  - 63.jpg
+  - 64.jpg
+  - 65.jpg
+  - 66.jpg
+  - 67.jpg
+  - 68.jpg
+  - 69.jpg
+  - 7.jpg
+  - 70.jpg
+  - 71.jpg
+  - 72.jpg
+  - 73.jpg
+  - 74.jpg
+  - 75.jpg
+  - 76.jpg
+  - 77.jpg
+  - 78.jpg
+  - 79.jpg
+  - 8.jpg
+  - 80.jpg
+  - 81.jpg
+  - 82.jpg
+  - 83.jpg
+  - 84.jpg
+  - 85.jpg
+  - 86.jpg
+  - 87.jpg
+  - 88.jpg
+  - 89.jpg
+  - 9.jpg
+  - 90.jpg
+  - 91.jpg
+  - 92.jpg
+  - 93.jpg
+  - 94.jpg
+  - 95.jpg
+  - 96.jpg
+  - 97.jpg
+  - 98.jpg
+  - 99.jpg
+  - bg-img/
+    - 1.jpg
+    - 10.jpg
+    - 11.jpg
+    - 12.jpg
+    - 13.jpg
+    - 14.jpg
+    - 15.jpg
+    - 16.jpg
+    - 17.jpg
+    - 18.jpg
+    - 19.jpg
+    - 2.jpg
+    - 20.jpg
+    - 21.jpg
+    - 22.jpg
+    - 23.jpg
+    - 24.jpg
+    - 25.jpg
+    - 26.jpg
+    - 27.jpg
+    - 28.jpg
+    - 29.jpg
+    - 3.jpg
+    - 30.jpg
+    - 31.jpg
+    - 32.jpg
+    - 33.jpg
+    - 34.jpg
+    - 35.jpg
+    - 36.jpg
+    - 37.jpg
+    - 38.jpg
+    - 39.jpg
+    - 4.jpg
+    - 40.png
+    - 41.png
+    - 42.png
+    - 43.png
+    - 44.png
+    - 45.png
+    - 46.png
+    - 47.png
+    - 48.png
+    - 49.jpg
+    - 5.jpg
+    - 6.jpg
+    - 7.jpg
+    - 8.jpg
+    - 9.jpg
+    - cool-facts.png
+    - subscribe.png
+    - team1.png
+    - team2.png
+    - team3.png
+    - team4.png
+  - core-img/
+    - b1.png
+    - b2.png
+    - b3.png
+    - b4.png
+    - cf1.png
+    - cf2.png
+    - cf3.png
+    - cf4.png
+    - favicon.ico
+    - leaf.png
+    - logo.png
+    - pot.png
+    - s1.png
+    - s2.png
+    - s3.png
+  - fav-icons/
+    - android-chrome-192x192.png
+    - android-chrome-512x512.png
+    - apple-touch-icon.png
+    - favicon-16x16.png
+    - favicon-32x32.png
+    - favicon.ico
+    - site.webmanifest
+  - logo.jpg
+- index.php
+- js/
+  - active.js
+  - bootstrap/
+    - bootstrap.min.js
+    - popper.min.js
+  - jquery/
+    - jquery-2.2.4.min.js
+  - plugins/
+    - plugins.js
+- portfolio.php
+- scss/
+  - style.scss
+  - _fonts.scss
+  - _mixin.scss
+  - _responsive.scss
+  - _theme_color.scss
+- shop-details.php
+- shop.php
+- single-portfolio.php
+- single-post.php
+- style.css
+- style.css.map
