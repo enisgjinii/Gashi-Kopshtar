@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+</html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="">
@@ -24,7 +26,7 @@
             <img src="img/core-img/leaf.png" alt="">
         </div>
     </div>
-    <?php include("header.php"); ?>
+    <?php include("navbar.php"); ?>
     <!-- ##### Hero Area Start ##### -->
     <section class="hero-area">
         <div class="hero-post-slides owl-carousel">
@@ -37,7 +39,7 @@
                                 <h2>Krijoni Oazin Tuaj të Gjelbër</h2>
                                 <p>Transformoni hapësirën tuaj të jashtme në një parajsë të qetë dhe të bukur me shërbimet tona të peizazhit. Ne kujdesemi për çdo detaj, nga dizajni deri te mirëmbajtja.</p>
                                 <div class="welcome-btn-group">
-                                    <a href="#" class="btn alazea-btn mr-30">Më shumë</a> <a href="#" class="btn alazea-btn active">Na Kontaktoni</a>
+                                    <a href="about.php" class="btn alazea-btn mr-30">Më shumë</a> <a href="contact.php" class="btn alazea-btn active">Na Kontaktoni</a>
                                 </div>
                             </div>
                         </div>
@@ -53,8 +55,8 @@
                                 <h2>Kujdes Unik për Çdo Bimë</h2>
                                 <p>Ne kuptojmë se çdo bimë ka nevojat e veta specifike për dritë, ujë dhe ushqyes. Shërbimet tona të personalizuara të kujdesit të bimëve sigurojnë që kopshti juaj të lulëzojë gjatë gjithë vitit.</p>
                                 <div class="welcome-btn-group">
-                                    <a href="#" class="btn alazea-btn mr-30">Më shumë</a>
-                                    <a href="#" class="btn alazea-btn active">Na Kontaktoni</a>
+                                    <a href="about.php" class="btn alazea-btn mr-30">Më shumë</a>
+                                    <a href="contact.php" class="btn alazea-btn active">Na Kontaktoni</a>
                                 </div>
                             </div>
                         </div>

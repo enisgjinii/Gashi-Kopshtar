@@ -3634,7 +3634,7 @@ class PHPMailer
      * without breaking lines within a character.
      * Adapted from a function by paravoid.
      *
-     * @see http://www.php.net/manual/en/function.mb-encode-mimeheader.php#60283
+     * @see http://www.php.net/manual/en/function.mb-encode-mimenavbar.php#60283
      *
      * @param string $str       multi-byte text to wrap encode
      * @param string $linebreak string to use as linefeed/end-of-line

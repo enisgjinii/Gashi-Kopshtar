@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
+</html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
     <!-- Title -->
-    <title>Alazea - Gardening &amp; Landscaping HTML Template</title>
-
+    <title>Gashi Kopshtar</title>
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
-
+    <link rel="icon" href="img/fav-icons/favicon-32x32.png">
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
-
+    <!-- Sweet Alert 2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
@@ -28,136 +27,7 @@
         </div>
     </div>
 
-    <!-- ##### Header Area Start ##### -->
-    <header class="header-area">
-
-        <!-- ***** Top Header Area ***** -->
-        <div class="top-header-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="top-header-content d-flex align-items-center justify-content-between">
-                            <!-- Top Header Content -->
-                            <div class="top-header-meta">
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="infodeercreative@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email: infodeercreative@gmail.com</span></a>
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="+1 234 122 122"><i class="fa fa-phone" aria-hidden="true"></i> <span>Call Us: +1 234 122 122</span></a>
-                            </div>
-
-                            <!-- Top Header Content -->
-                            <div class="top-header-meta d-flex">
-                                <!-- Language Dropdown -->
-                                <div class="language-dropdown">
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle mr-30" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" href="#">USA</a>
-                                            <a class="dropdown-item" href="#">UK</a>
-                                            <a class="dropdown-item" href="#">Bangla</a>
-                                            <a class="dropdown-item" href="#">Hindi</a>
-                                            <a class="dropdown-item" href="#">Spanish</a>
-                                            <a class="dropdown-item" href="#">Latin</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Login -->
-                                <div class="login">
-                                    <a href="#"><i class="fa fa-user" aria-hidden="true"></i> <span>Login</span></a>
-                                </div>
-                                <!-- Cart -->
-                                <div class="cart">
-                                    <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span>Cart <span class="cart-quantity">(1)</span></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- ***** Navbar Area ***** -->
-        <div class="alazea-main-menu">
-            <div class="classy-nav-container breakpoint-off">
-                <div class="container">
-                    <!-- Menu -->
-                    <nav class="classy-navbar justify-content-between" id="alazeaNav">
-
-                        <!-- Nav Brand -->
-                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
-
-                        <!-- Navbar Toggler -->
-                        <div class="classy-navbar-toggler">
-                            <span class="navbarToggler"><span></span><span></span><span></span></span>
-                        </div>
-
-                        <!-- Menu -->
-                        <div class="classy-menu">
-
-                            <!-- Close Button -->
-                            <div class="classycloseIcon">
-                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                            </div>
-
-                            <!-- Navbar Start -->
-                            <div class="classynav">
-                                <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="#">Pages</a>
-                                        <ul class="dropdown">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="shop.html">Shop</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="shop.html">Shop</a></li>
-                                                    <li><a href="shop-details.html">Shop Details</a></li>
-                                                    <li><a href="cart.html">Shopping Cart</a></li>
-                                                    <li><a href="checkout.html">Checkout</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="portfolio.html">Portfolio</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="portfolio.html">Portfolio</a></li>
-                                                    <li><a href="single-portfolio.html">Portfolio Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="blog.html">Blog</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="single-post.html">Blog Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="shop.html">Shop</a></li>
-                                    <li><a href="portfolio.html">Portfolio</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                </ul>
-
-                                <!-- Search Icon -->
-                                <div id="searchIcon">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
-                                </div>
-
-                            </div>
-                            <!-- Navbar End -->
-                        </div>
-                    </nav>
-
-                    <!-- Search Form -->
-                    <div class="search-form">
-                        <form action="#" method="get">
-                            <input type="search" name="search" id="search" placeholder="Type keywords &amp; press enter...">
-                            <button type="submit" class="d-none"></button>
-                        </form>
-                        <!-- Close Icon -->
-                        <div class="closeIcon"><i class="fa fa-times" aria-hidden="true"></i></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- ##### Header Area End ##### -->
+    <?php include("navbar.php"); ?>
 
     <!-- ##### Breadcrumb Area Start ##### -->
     <div class="breadcrumb-area">
@@ -171,8 +41,8 @@
                 <div class="col-12">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Portfolio</li>
+                            <li class="breadcrumb-item"><a href="index.php">Shtëpi</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Portofoli</li>
                         </ol>
                     </nav>
                 </div>
@@ -188,40 +58,28 @@
                 <div class="col-12">
                     <!-- Section Heading -->
                     <div class="section-heading text-center">
-                        <h2>OUR PORTFOLIO</h2>
-                        <p>We devote all of our experience and efforts for creation</p>
+                        <h2>PORTOFOLI JONË</h2>
+                        <p>Ne i kushtojmë të gjithë përvojën dhe përpjekjet tona për krijimin</p>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="alazea-portfolio-filter">
-                        <div class="portfolio-filter">
-                            <button class="btn active" data-filter="*">All</button>
-                            <button class="btn" data-filter=".design">Coffee Design</button>
-                            <button class="btn" data-filter=".garden">Garden</button>
-                            <button class="btn" data-filter=".home-design">Home Design</button>
-                            <button class="btn" data-filter=".office-design">Office Design</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
 
             <div class="row alazea-portfolio">
 
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item design home-design">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/16.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/16.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/16.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 1">
+                        <a href="img/16.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 1">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
-                                <h5>Office Plants</h5>
+                                <h3>Suharekë</h3>
+                                <!-- <h5>Office Plants</h5> -->
                             </div>
                         </a>
                     </div>
@@ -230,13 +88,13 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-6 single_portfolio_item garden">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/17.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/58.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/17.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 2">
+                        <a href="img/58.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 2">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
-                                <h5>Office Plants</h5>
+                                <h3>Punime</h3>
+                                <!-- <h5>Office Plants</h5> -->
                             </div>
                         </a>
                     </div>
@@ -245,13 +103,12 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden office-design">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/19.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/70.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/19.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 4">
+                        <a href="img/70.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 4">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
-                                <h5>Office Plants</h5>
+                                <h3>Punime</h3>
                             </div>
                         </a>
                     </div>
@@ -260,13 +117,12 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item design office-design">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/20.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/75.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/20.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 5">
+                        <a href="img/75.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 5">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
-                                <h5>Office Plants</h5>
+                                <h3>Punime</h3>
                             </div>
                         </a>
                     </div>
@@ -275,13 +131,12 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/21.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/76.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/21.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 6">
+                        <a href="img/76.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 6">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
-                                <h5>Office Plants</h5>
+                                <h3>Punime</h3>
                             </div>
                         </a>
                     </div>
@@ -290,13 +145,12 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-6 single_portfolio_item home-design">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/22.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/79.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/22.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 7">
+                        <a href="img/79.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 7">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
-                                <h5>Office Plants</h5>
+                                <h3>Punime</h3>
                             </div>
                         </a>
                     </div>
@@ -305,13 +159,12 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-6 single_portfolio_item design home-design">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/16.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/61.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/16.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 1">
+                        <a href="img/61.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 1">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
-                                <h5>Office Plants</h5>
+                                <h3>Punime</h3>
                             </div>
                         </a>
                     </div>
@@ -320,13 +173,12 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/17.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/62.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/17.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 2">
+                        <a href="img/62.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 2">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
-                                <h5>Office Plants</h5>
+                                <h3>Punime</h3>
                             </div>
                         </a>
                     </div>
@@ -335,13 +187,12 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden office-design">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/19.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/64.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/19.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 4">
+                        <a href="img/64.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 4">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
-                                <h5>Office Plants</h5>
+                                <h3>Punime</h3>
                             </div>
                         </a>
                     </div>
@@ -350,13 +201,12 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item design office-design">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/20.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/65.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/20.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 5">
+                        <a href="img/65.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 5">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
-                                <h5>Office Plants</h5>
+                                <h3>Punime</h3>
                             </div>
                         </a>
                     </div>
@@ -365,13 +215,12 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/21.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/66.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/21.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 6">
+                        <a href="img/66.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 6">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
-                                <h5>Office Plants</h5>
+                                <h3>Punime</h3>
                             </div>
                         </a>
                     </div>
@@ -380,13 +229,12 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-6 single_portfolio_item home-design">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/22.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/103.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/22.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 7">
+                        <a href="img/103.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 7">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
-                                <h5>Office Plants</h5>
+                                <h3>Punime</h3>
                             </div>
                         </a>
                     </div>
@@ -397,140 +245,7 @@
     </section>
     <!-- ##### Portfolio Area End ##### -->
 
-    <!-- ##### Footer Area Start ##### -->
-    <footer class="footer-area bg-img" style="background-image: url(img/bg-img/3.jpg);">
-        <!-- Main Footer Area -->
-        <div class="main-footer-area">
-            <div class="container">
-                <div class="row">
-
-                    <!-- Single Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget">
-                            <div class="footer-logo mb-30">
-                                <a href="#"><img src="img/core-img/logo.png" alt=""></a>
-                            </div>
-                            <p>Lorem ipsum dolor sit samet, consectetur adipiscing elit. India situs atione mantor</p>
-                            <div class="social-info">
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget">
-                            <div class="widget-title">
-                                <h5>QUICK LINK</h5>
-                            </div>
-                            <nav class="widget-nav">
-                                <ul>
-                                    <li><a href="#">Purchase</a></li>
-                                    <li><a href="#">FAQs</a></li>
-                                    <li><a href="#">Payment</a></li>
-                                    <li><a href="#">News</a></li>
-                                    <li><a href="#">Return</a></li>
-                                    <li><a href="#">Advertise</a></li>
-                                    <li><a href="#">Shipping</a></li>
-                                    <li><a href="#">Career</a></li>
-                                    <li><a href="#">Orders</a></li>
-                                    <li><a href="#">Policities</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-
-                    <!-- Single Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget">
-                            <div class="widget-title">
-                                <h5>BEST SELLER</h5>
-                            </div>
-
-                            <!-- Single Best Seller Products -->
-                            <div class="single-best-seller-product d-flex align-items-center">
-                                <div class="product-thumbnail">
-                                    <a href="shop-details.html"><img src="img/bg-img/4.jpg" alt=""></a>
-                                </div>
-                                <div class="product-info">
-                                    <a href="shop-details.html">Cactus Flower</a>
-                                    <p>$10.99</p>
-                                </div>
-                            </div>
-
-                            <!-- Single Best Seller Products -->
-                            <div class="single-best-seller-product d-flex align-items-center">
-                                <div class="product-thumbnail">
-                                    <a href="shop-details.html"><img src="img/bg-img/5.jpg" alt=""></a>
-                                </div>
-                                <div class="product-info">
-                                    <a href="shop-details.html">Tulip Flower</a>
-                                    <p>$11.99</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget">
-                            <div class="widget-title">
-                                <h5>CONTACT</h5>
-                            </div>
-
-                            <div class="contact-information">
-                                <p><span>Address:</span> 505 Silk Rd, New York</p>
-                                <p><span>Phone:</span> +1 234 122 122</p>
-                                <p><span>Email:</span> info.deercreative@gmail.com</p>
-                                <p><span>Open hours:</span> Mon - Sun: 8 AM to 9 PM</p>
-                                <p><span>Happy hours:</span> Sat: 2 PM to 4 PM</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Footer Bottom Area -->
-        <div class="footer-bottom-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="border-line"></div>
-                    </div>
-                    <!-- Copywrite Text -->
-                    <div class="col-12 col-md-6">
-                        <div class="copywrite-text">
-                            <p>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</p>
-                        </div>
-                    </div>
-                    <!-- Footer Nav -->
-                    <div class="col-12 col-md-6">
-                        <div class="footer-nav">
-                            <nav>
-                                <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Service</a></li>
-                                    <li><a href="#">Portfolio</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- ##### Footer Area End ##### -->
+    <?php include("footer.php"); ?>
 
     <!-- ##### All Javascript Files ##### -->
     <!-- jQuery-2.2.4 js -->

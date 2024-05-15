@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
+</html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <!-- Title -->
     <title>Gashi Kopshtar</title>
     <!-- Favicon -->
     <link rel="icon" href="img/fav-icons/favicon.ico">
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <!-- Sweet Alert 2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
@@ -23,7 +26,7 @@
             <img src="img/core-img/leaf.png" alt="">
         </div>
     </div>
-    <?php include("header.php"); ?>
+    <?php include("navbar.php"); ?>
     <!-- ##### Breadcrumb Area Start ##### -->
     <div class="breadcrumb-area">
         <!-- Top Breadcrumb Area -->

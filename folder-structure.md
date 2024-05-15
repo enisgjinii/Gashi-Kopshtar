@@ -2,7 +2,7 @@
 
 ### Root Directory
 - **.sass-cache/**: Contains cached compiled CSS files from the SCSS files for faster compilation.
-- **about.php, blog.php, cart.php, checkout.php, email_form.php, footer.php, header.php, index.php, portfolio.php, shop-details.php, shop.php, single-portfolio.php, single-post.php**: PHP files for different pages of the application.
+- **about.php, blog.php, cart.php, checkout.php, email_form.php, footer.php, navbar.php, index.php, portfolio.php, shop-details.php, shop.php, single-portfolio.php, single-post.php**: PHP files for different pages of the application.
 - **composer.json, composer.lock**: Composer files for managing PHP dependencies.
 - **contact.html**: HTML file for the contact page.
 - **style.css, style.css.map**: Compiled CSS files from SCSS.
@@ -102,7 +102,7 @@
   - fontawesome-webfont.woff2
   - FontAwesome.otf
 - footer.php
-- header.php
+- navbar.php
 - img/
   - 1.jpg
   - 10.jpg

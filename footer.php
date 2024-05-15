@@ -23,8 +23,8 @@
                             <h5>Kontakti</h5>
                         </div>
                         <div class="contact-information">
-                            <p><span>Adresa:</span> 505 Silk Rd, New York</p>
-                            <p><span>Nr. tel:</span> +383 (0) 49 111 111</p>
+                            <p><span>Adresa:</span> Suharekë</p>
+                            <p><span>Nr. tel:</span> +383 (0) 49 310 145</p>
                             <p><span>Adresa e email-it:</span> gashikopshtar@gmail.com</p>
                             <p><span>Orari i punës:</span> E hënë - E shtunë: 9:00 AM  -  5:00 PM</p>
                         </div>
@@ -44,12 +44,7 @@
                 <div class="col-12 col-md-6">
                     <div class="copywrite-text">
                         <p>&copy;
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            E drejta e autorit &copy;
-                            <script>
-                                document.write(new Date().getFullYear());
-                            </script> Të gjitha të drejtat janë të rezervuara <i class="fa fa-heart-o" aria-hidden="true"></i> nga <a href="https://enisgjini.framer.website/" target="_blank">EG</a>
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Të gjitha të drejtat janë të rezervuara
                         </p>
                     </div>
                 </div>

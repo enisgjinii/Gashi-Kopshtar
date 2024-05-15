@@ -612,7 +612,7 @@
                             </div>
 
                             <div class="contact-information">
-                                <p><span>Address:</span> 505 Silk Rd, New York</p>
+                                <p><span>Address:</span> Suharekë</p>
                                 <p><span>Phone:</span> +1 234 122 122</p>
                                 <p><span>Email:</span> info.deercreative@gmail.com</p>
                                 <p><span>Open hours:</span> Mon - Sun: 8 AM to 9 PM</p>

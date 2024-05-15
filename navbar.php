@@ -48,7 +48,9 @@
                 <!-- Menu -->
                 <nav class="classy-navbar justify-content-between" id="alazeaNav">
                     <!-- Nav Brand -->
-                    <a href="index.php" class="nav-brand"><img src="img/logo.jpg" style="width: 75px;height: 75px;object-fit: contain;border-radius: 10%" alt=""></a>
+                    <a href="index.php" class="nav-brand">
+                        <img src="img/logo.jpg" class="logo" alt="">
+                    </a>
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">
                         <span class="navbarToggler"><span></span><span></span><span></span></span>
@@ -64,7 +66,7 @@
                             <ul>
                                 <li><a href="index.php">Shtëpia</a></li>
                                 <li><a href="about.php">Rreth nesh</a></li>
-                                <li><a href="#">Faqet</a>
+                                <!--<li><a href="#">Faqet</a>
                                     <ul class="dropdown">
                                         <li><a href="index.php">Shtëpia</a></li>
                                         <li><a href="about.php">Rreth nesh</a></li>
@@ -74,15 +76,16 @@
                                                 <li><a href="single-portfolio.php">Detaje të portofolit</a></li>
                                             </ul>
                                         </li>
-                                        <!-- <li><a href="blog.php">Blog</a>
+                                         <li><a href="blog.php">Blog</a>
                                             <ul class="dropdown">
                                                 <li><a href="blog.php">Blog</a></li>
                                                 <li><a href="single-post.php">Blog Details</a></li>
                                             </ul>
-                                        </li> -->
+                                        </li> 
                                         <li><a href="contact.php">Kontakti</a></li>
                                     </ul>
                                 </li>
+                            -->
                                 <li><a href="portfolio.php">Portfolio</a></li>
                                 <li><a href="contact.php">Kontakti</a></li>
                             </ul>
