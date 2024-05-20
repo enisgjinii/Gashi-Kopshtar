@@ -49,7 +49,7 @@
                 <nav class="classy-navbar justify-content-between" id="alazeaNav">
                     <!-- Nav Brand -->
                     <a href="index.php" class="nav-brand">
-                        <img src="img/logo.jpg" class="logo" alt="" style="width: 45px">
+                        <img src="img/logo.jpg" class="logo" alt="Logo">
                     </a>
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">
